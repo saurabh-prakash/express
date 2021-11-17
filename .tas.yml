@@ -4,9 +4,6 @@ postMerge:
   pattern:
     - "./test/*.js"
     - "./test/acceptance/*.js"
-  strategy:
-    threshold: <5|100s|30m|6h>
-    type: <commit|time>
 preMerge:
   pattern:
     - "./test/*.js"
@@ -15,6 +12,4 @@ preRun:
   - npm i
 postRun:
   - node --version
-stability:
-  consecutive_runs: 5
 version: 2.0
