@@ -15,5 +15,4 @@ postRun:
   command:
     - node --version
 parallelism: 2
-nodeVersion: aksljdlksjd
 version: 2.0
