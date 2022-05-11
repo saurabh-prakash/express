@@ -235,7 +235,6 @@ describe('Route', function(){
         // this should not execute
         true.should.be.false()
       });
-      true.should.be.false()
 
       route.dispatch(req, {}, done);
     });
