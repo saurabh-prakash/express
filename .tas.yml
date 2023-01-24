@@ -9,3 +9,4 @@ postMerge:
     - "./test/*.js"
     - "./test/acceptance/*.js"
 version: 1.0
+
